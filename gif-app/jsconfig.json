@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src"
+    }
+}
+
+// Este archivo está puesto para acortar las rutas y facilitar el ponerlas a la hora
+// de crear los Imports. Gracias a esto pilla la ruta /src como la ruta base.
+// Entonces si necesito hacer un import de una carpeta o archivo que está en src no tengo
+// que hacer ../../${carpetaEnSrcDeseada}, con poner directamente ${carpetaEnSrcDeseada} es
+// más que suficiente.
